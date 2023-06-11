@@ -266,10 +266,10 @@ def webcomms(userinput):
         speak(speechrate, volume, speak_sentence="Sir, your call has been placed!")
         sleep(2)
         click(x=1246, y=72)
-    elif userinput.startswith("cut the call"):
+    elif userinput.startswith("hang up the call"):
         click(x=780, y=605)
         sleep(1)
-        speak(speechrate, volume, speak_sentence="Sir, your call has been cut")
+        speak(speechrate, volume, speak_sentence="Sir, your call has been hung up.")
     elif userinput.startswith("send a voice message"):
         words = userinput.split()
         memname = words[5]
