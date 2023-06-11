@@ -53,7 +53,7 @@ Jarvis is an advanced AI assistant, inspired by the iconic Iron Man movie, desig
 This will search the person again, and call them.
 
 - To hang up an ongoing call on WhatsApp, you can say: \
-``cut the call`` \
+``hang up the call`` \
 This will hang up the ongoing call.
 
 - To send a voice message on WhatsApp, you can say: \
